@@ -1,0 +1,179 @@
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height:600px;
+    background:white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
+
+.container .left-container{
+    background: rgb(15, 45, 89);
+    padding: 20px;
+    position: relative;
+}
+.container .right-container{
+    background: rgb(243, 242, 242);
+    padding: 40px;
+    position: relative;
+    padding-top: 10px;
+    
+}
+.profileimg img{
+    max-width:100%;  
+    position: relative;
+    border-radius: 50%;
+    
+}
+
+.user-info h2{
+    font-size: 90%;
+    color: white;
+    text-align: center; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.user-info{
+    border-bottom: 2px solid rgb(45, 85, 183);
+}
+
+.contacts{
+    font-size: 60%;
+    padding-top: 10px;
+}
+
+.contacts h3{
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.contacts h2,.education h2, .languages h2{
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.education1 h6, .education2 h6{
+    font-size: 50%;
+    color: rgb(49, 107, 154);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.education1 h5, .education2 h5,.languages h5{
+    font-size: 80%;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.languages .fluency{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(17, 15, 15);
+    display: block;
+    margin-top: 5px;
+}
+
+.languages .fluency div{
+    position: absolute;
+    height:100%;
+    background: rgb(0, 26, 255);
+    opacity: 20%;
+}
+
+.education,.languages{
+    margin-top: 30px;
+}
+
+.exp1,.exp2{
+    display: flex;
+    height:fit-content;
+    
+}
+
+.exp1 .exp1time,.exp2 .exp2time{
+
+    width: 30%;
+}
+
+.exp1 .exp1desc, .exp2 .exp2desc{
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.experience h5{
+    color: rgb(129, 129, 129);
+    font-size: 50%;
+    font-family:Arial, Helvetica, sans-serif
+}
+.experience h4{
+    color: rgb(129, 129, 129);
+    font-size: 65%;
+    font-family:Arial, Helvetica, sans-serif
+}
+.experience h3{
+    color: rgb(27, 53, 110);
+    font-size: 70%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.sk{
+    display: flex;
+    height: 40px;
+}
+
+.skname{
+    width: 30%;
+}
+
+.sklvl{
+    width: 70%;
+    
+    
+}
+.lvlfluency{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(108, 108, 108);
+    display: block;
+    margin-top: 28px;
+}
+.lvlfluency div{
+    position: absolute;
+    height:100%;
+    background: rgb(8, 21, 134);
+    opacity: 50%;
+}
+
+h2{
+    color: rgb(27, 53, 110);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutme{
+    color: rgb(129, 129, 129);
+    font-size: 80%;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 150px;
+}
+
+.experience{
+    min-height: 200px;
+  
+}
+
